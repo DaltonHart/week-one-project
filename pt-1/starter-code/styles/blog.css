@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+body{
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 10;
+  }
+
+header nav a {
+    font-size: 1.5em;
+    display: inline-block;
+    padding: .5em;
+    color: #5E9EA9;
+}
+.container{
+    margin: 70px auto;
+}
+
+.logo {
+    background-color: green;
+    background-image: url('../images/blog_header_bg.jpg');
+	background-size: cover;
+	background-position: top;
+    height: 200px;
+    margin: 70px auto;
+    padding: 10%;
+}
+
+.logo h1 {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+section img {
+    width: 100%;
+}
+
+
+
+h2, h3, h4 {
+    text-align: left;
+}
+h2{
+    font-size: 1.5em;
+}
+h4{
+  font-size: 1em;
+}
+header, footer{
+    text-align: center;
+}
+
+img  {
+    padding: 1em 0em;
+}
+
+.about-us img {
+    width: 40%;
+}
+.copyrite{
+    border-top: 1px solid black;
+}
+footer a {
+    font-size: 1.5em;
+    margin: 1em;
+    color: #47545D;
+}
+.spacer{
+    padding: 2%;
+}
+.col, .col-8 {
+    margin: 0;
+    padding: 1em;
+}
+article p, .about p, .recent-issues a {
+    font-family: 'Lato', sans-serif;
+}
+
+.recent-issues a{
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #D4F2F5;
+    font-family: 'Lato', sans-serif;
+    color: #47545D;
+    margin:0;
+}
+
+.button1 , .name , .email, .comment, .button2, .email2 {
+    color: #47545D;
+    border: solid 1px #47545D;
+    width: 100%;
+    margin-top: 1em;
+    
+}
+.email2 {
+    text-align: center;
+}
+.button1, .button2 {
+    text-align: center;
+}
+.button2 {
+    background: none;
+}
+.button1:hover, .button2:hover{
+    background: #47545D;
+    color: white;
+}
+.contact-form, .stayconnect{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+.stayconnect{
+    align-content: center;
+    width: 50%;
+    text-align: center;
+}
+.contact-form h2 {
+    color: #47545D;
+    text-align: center;
+}
+.logo i {
+    color: white;
+    font-size: 2em;
+    text-align: left;
+    padding: 0;
+    display: none;
+}
+
+@media screen and (max-width:560px){
+    header nav a {
+        display: none; 
+    }
+    .logo i {
+        display: block;
+        align-content: left;
+        padding: .5em;
+        
+    }
+    .about, .recent-issues {
+        display: none;
+    }
+    section, footer {
+        margin: 0 auto;
+        padding: 0;
+    }
+    .logo{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .col, .col-8 {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+    .row {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .container {
+        margin: 0 auto;
+        align-content: center;
+    }
+    .contact-form {
+        display: block;
+        margin-bottom: 1em;
+    }
+    .article1 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
