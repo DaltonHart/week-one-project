@@ -11,3 +11,14 @@ header h4 {
     margin: 70px auto;
     padding: 10%;
 }
+.title {
+    text-align: center;
+    background: red;
+    width: 100%;
+}
+.row {
+    border: 2px solid green;
+}
+.about {
+    background-color:  #D4F2F5;
+}
