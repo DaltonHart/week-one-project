@@ -1,24 +1,65 @@
+
 header h4 {
     color: white;
     text-align: center;
+}
+h2 {
+    color: #47545D;
 }
 .logo {
     background-color: green;
     background-image: url('../images/home_header_bg.jpg');
 	background-size: cover;
-	background-position: top;
+    background-position: top;
+    background-attachment: fixed;
     height: 400px;
     margin: 70px auto;
     padding: 10%;
 }
 .title {
     text-align: center;
-    background: red;
     width: 100%;
-}
-.row {
-    border: 2px solid green;
 }
 .about {
     background-color:  #D4F2F5;
+    margin: 3em 0em;
+}
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.readmore {
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    font-size: .75em;
+    color: #47545D;
+    border: 2px solid #47545D;
+}
+.readmore:hover{
+    background: #47545D;
+    color: white;
+}
+.about {
+    display: block;
+    text-align: center;
+    padding: 5em;
+    color: #47545D;
+}
+.about h2, h3 {
+    text-align: center;
+}
+.issue h2, h3 {
+    text-align: center;
+    color: #47545D;
+    display: block;
+}
+
+.gallery img {
+    width: 100%;
+    padding: 1em;
+    overflow: hidden;
+    height: 50%;
 }
